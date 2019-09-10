@@ -7,6 +7,7 @@ RUN bundle install
 COPY . /usr/src/app
 
 EXPOSE 4567
+EXPOSE 4666
 
 CMD bundle exec ruby app.rb -o 0.0.0.0
 
